@@ -44,17 +44,24 @@ h1 {
 .box.change-color {
   background: var(--yellow-color);
 }
-
+.box.change-color.is-active-blue {
+  background-color: blue;
+}
 .box.toggle-color {
   background: var(--orange-color);
 }
-
+.box.toggle-color.is-active-red {
+  background-color: red;
+}
 .box.trigger {
   background: var(--violet-color);
 }
 
 .box.target {
   background: var(--red-color);
+}
+.box.target.is-change-display {
+  display: none;
 }
 
 .box.trigger-all {
@@ -63,4 +70,7 @@ h1 {
 
 .box.trigger-all-self {
   background: var(--blue-color);
+}
+.box.trigger-all-self.is-active-green {
+  background-color: green;
 }
